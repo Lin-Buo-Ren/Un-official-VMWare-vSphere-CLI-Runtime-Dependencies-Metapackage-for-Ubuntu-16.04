@@ -1,4 +1,5 @@
 # Un-official VMWare vSphere CLI Runtime Dependencies Metapackage for Ubuntu 16.04
+[![Build Status of the current revision of the project on Travis CI](https://travis-ci.org/Lin-Buo-Ren/Un-official-VMWare-vSphere-CLI-Runtime-Dependencies-Metapackage-for-Ubuntu-16.04.svg?branch=master)](https://travis-ci.org/Lin-Buo-Ren/Un-official-VMWare-vSphere-CLI-Runtime-Dependencies-Metapackage-for-Ubuntu-16.04)  
 This project maintains the files to create a metapackage for cleanly install VMWare vSphere CLI's runtime dependencies on Ubuntu 16.04
 
 <https://github.com/Lin-Buo-Ren/Un-official-VMWare-vSphere-CLI-Runtime-Dependencies-Metapackage-for-Ubuntu-16.04>
