@@ -7,12 +7,12 @@ language: debian
 sudo: false
 addons:
   apt:
-    sources:
-    - debian-sid    # Grab shellcheck from the Debian repo (o_O)
+#    sources:
+#    - debian-sid    # Grab shellcheck from the Debian repo (o_O)
     packages:
     - equivs
     - realpath      # Merged to GNU Coreutils in Ubuntu 16.04
-    - shellcheck
+#    - shellcheck
 
 ## We only support Ubuntu 14.04 and newer
 dist: trusty
@@ -20,7 +20,7 @@ dist: trusty
 script:
 #- git ls-files -z \*.bash | xargs --max-args=1 --verbose --null -- shellcheck
 # The following command will be dropped in favor with the above one after Travis CI environment contains ShellCheck >=0.4.5, which fixes the bug that triggers SC2148 even when `shell` directive is used
-- git ls-files -z \*.bash | xargs --max-args=1 --verbose --null -- shellcheck --shell=bash
+#- git ls-files -z \*.bash | xargs --max-args=1 --verbose --null -- shellcheck --shell=bash
 - ./build.bash
 
 deploy:
