@@ -1,0 +1,5 @@
+# Version Tracking Ignore Rules for Git VCS
+# man gitignore
+
+## Build products
+*.deb
