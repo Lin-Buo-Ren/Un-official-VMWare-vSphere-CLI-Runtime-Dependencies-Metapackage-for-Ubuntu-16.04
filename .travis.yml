@@ -1,0 +1,19 @@
+# Travis CI Configuration
+# https://docs.travis-ci.com
+## Currenly not exist :)
+language: debian
+
+## Use container-based infrastructure for quicker build start-up
+sudo: false
+addons:
+  apt:
+    packages:
+    - equivs
+    - realpath      # Merged to GNU Coreutils in Ubuntu 16.04
+
+## We only support Ubuntu 14.04 and newer
+dist: trusty
+
+script:
+- ./build.bash
+
